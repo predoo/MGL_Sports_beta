@@ -1,5 +1,5 @@
 <?php
-echo "agora vai";
+echo "agora vassi";
 /* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
