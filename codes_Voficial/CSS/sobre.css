@@ -10,8 +10,9 @@
 #img2{
 	border-radius: 50%;
 	width: 200px;
-	margin-left: 75%;
+	margin-right: 15%;
 	margin-bottom: 5%;
+	float: right;
 }
 
 #img3{
