@@ -40,10 +40,10 @@ function carousel() {
 </script>
 <br>
 <div class="rodape">
-<a href="https://facebook.com" target="_blank"> <img src="../IMAGENS/facebook.png"></a>
-<a href="https://instagram.com" target="_blank"><img src="../IMAGENS/instagram.png"></a>
-<a href="https://plus.google.com" target="_blank"><img src="../IMAGENS/google.png"></a>
-<a href="https://twitter.com" target="_blank"><img src="../IMAGENS/twitter.png"></a>
+<a href="https://facebook.com" target="_blank"> <img src= "../IMAGENS/facebook.png"></a>
+<a href="https://instagram.com" target="_blank"><img src= "../IMAGENS/instagram.png"></a>
+<a href="https://plus.google.com" target="_blank"><img src= "../IMAGENS/google.png"></a>
+<a href="https://twitter.com" target="_blank"><img src= "../IMAGENS/twitter.png"></a>
 </div>
 
 
