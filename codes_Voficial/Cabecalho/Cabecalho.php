@@ -2,14 +2,14 @@
 ?>
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="CSS/cabecalho.css">
+<link rel="stylesheet" type="text/css" href="../CSS/cabecalho.css">
 
 <head>
 	<title></title>
 </head>
 <body>
 <div id="cab">
-<img style="position: absolute;" id="logo" src="IMAGENS/logo.png">
+<img style="position: absolute;" id="logo" src="../IMAGENS/logo.png">
 </div>
 <style>
 ul {
@@ -46,12 +46,12 @@ li a:hover:not(.active) {
 <body>
 
 <ul id="menu">
-  <li><a href=Home.php>Inicio</a></li>
-  <li><a href=Valores/Valores.php>Valores</a></li>
-  <li><a href="Contato/Contato.php">Contato</a></li>
-  <li><a href="Sobre/Sobre.php">Sobre</a></li>
-  <li><a href="Cadastro/Cadastro.php">Cadastro</a></li>
-  <li style="float:right"><a href="Login/Login.php">Login</a></li>
+  <li><a href=../Home/Home.php>Inicio</a></li>
+  <li><a href=../Valores/Valores.php>Valores</a></li>
+  <li><a href="../Contato/Contato.php">Contato</a></li>
+  <li><a href="../Sobre/Sobre.php">Sobre</a></li>
+  <li><a href="../Cadastro/Cadastro.php">Cadastro</a></li>
+  <li style="float:right"><a href="../Login/Login.php">Login</a></li>
 </ul>
 
 </body>
