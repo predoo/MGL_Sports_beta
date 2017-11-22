@@ -50,8 +50,8 @@ li a:hover:not(.active) {
   <li><a href=Valores/Valores.php>Valores</a></li>
   <li><a href="Contato/Contato.php">Contato</a></li>
   <li><a href="Sobre/Sobre.php">Sobre</a></li>
-  <li><a href="Login/Login.php">Cadastro</a></li>
-  <li style="float:right"><a href="#login">Login</a></li>
+  <li><a href="Cadastro/Cadastro.php">Cadastro</a></li>
+  <li style="float:right"><a href="Login/Login.php">Login</a></li>
 </ul>
 
 </body>
