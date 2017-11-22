@@ -1,5 +1,5 @@
 <?php
-include "../cabecalho.php"
+include "../Cabecalho/Cabecalho.php";
   ?>
 
   <!DOCTYPE html>
