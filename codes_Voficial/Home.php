@@ -1,12 +1,12 @@
 <?php 
 
-include "../cabecalho.php";
+include "cabecalho.php";
 
  ?>
 
  
  <html>
- <link rel="stylesheet" type="text/css" href="..CSS/index.css">
+ <link rel="stylesheet" type="text/css" href="CSS/index.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
@@ -16,9 +16,9 @@ include "../cabecalho.php";
 
 
 <div class="w3-content w3-section" style="max-width:1000px">
-  <img class="mySlides" src="../IMAGENS/basquete.jpg" style="width:100%">
-  <img class="mySlides" src="../IMAGENS/volei.jpg" style="width:100%">
-  <img class="mySlides" src="../IMAGENS/natacao.jpg" style="width:100%">
+  <img class="mySlides" src="IMAGENS/basquete.jpg" style="width:100%">
+  <img class="mySlides" src="IMAGENS/volei.jpg" style="width:100%">
+  <img class="mySlides" src="IMAGENS/natacao.jpg" style="width:100%">
 </div>
 
 <script>
