@@ -1,0 +1,28 @@
+#inteiro{
+margin-bottom: 50%;
+}
+
+#blc1{
+	width: 400px;
+	background: lightgray;
+	margin-left: 8%;
+	float: left;
+
+}
+
+#blc2{
+	width: 400px;
+	background: lightgray;
+	margin-left: 10%;
+	float: left;
+}
+
+#blc3{
+	width: 400px;
+	background: lightgray;
+	margin-right: 8%;
+	float: right;
+	
+}
+
+body { overflow-x: hidden; }
