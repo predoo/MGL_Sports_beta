@@ -38,8 +38,8 @@ else{
   
   if($nome != "" &&  $email != "" && $senha != ""){
 
-  $sql = "INSERT INTO usuario(idUsuario, nome, email, preferencias, senha) VALUES
-  ('".$email."', '".$nome."','".$email."', ' ','".$senhacrip."')";
+  $sql = "INSERT INTO usuario(idUsuario, nome, email, preferencias, senha, resposta) VALUES
+  ('".$email."', '".$nome."','".$email."', ' ','".$senhacrip."', '')";
 
   $result = mysqli_query($link, $sql);
 

@@ -15,6 +15,7 @@ include "../Cabecalho/Cabecalho.php";
  <form action='confirma.php' method='GET' align='center'>
   Email: <br><input type='Text' name='email'><br><br>
   Senha: <br><input type='Password' name='senha'><br><br>
+  <input type="checkbox" name="opcoes"> Sou administrador<br><br>
     <input type='submit' value='Pronto'>
     </form>
  
@@ -23,3 +24,4 @@ include "../Cabecalho/Cabecalho.php";
 </div>
  </body>
  </html>
+

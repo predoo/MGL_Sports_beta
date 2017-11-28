@@ -52,16 +52,14 @@ WHERE email = '".$id."';";
     echo "<br>";
     echo "<h3 align='center'>Dados inseridos com sucesso!</h3>";
     echo "<h3 align='center'>Você será redimensionado para a página de login.</h3>";
-    
+    sleep(10);
+    header("Location: ../Login/login.php");
       echo "</form>";
 
   }
   else{
     echo "<h3 align='center'>Erro de SQL.</h3>";
-      
-    sleep(10);
-    header("Location: ../Login/login.php");
-
+ 
   }
 
   }
