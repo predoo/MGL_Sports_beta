@@ -38,17 +38,17 @@ else{
   
   if($nome != "" &&  $email != "" && $senha != ""){
 
-  $sql = "INSERT INTO usuario(email, nome, senha) VALUES
-  ('".$email."','".$nome."','".$senhacrip."')";
+  $sql = "INSERT INTO usuario(idUsuario, nome, email, preferencias, senha) VALUES
+  ('".$email."', '".$nome."','".$email."', ' ','".$senhacrip."')";
 
   $result = mysqli_query($link, $sql);
 
   if($result){
     echo "<br>";
     echo "<h3 align='center'>Dados inseridos com sucesso!</h3>";
-    echo "<form action='home.php' method='GET' align='center'>";//pg do usuário
+    echo "<form action='Preferencias.php' method='GET' align='center'>";//pg do usuário
     echo "<br>";
-    echo "<a href = 'Preferencias.php'><input type='submit' value='Ok'>";
+    echo "<input type='submmit' value='Ok'>";
     echo "</form>";
 
   }else{

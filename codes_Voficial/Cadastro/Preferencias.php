@@ -1,7 +1,7 @@
 <?php
 
 include "../Cabecalho/Cabecalho.php";
-include "../Banco/banco.php";
+include "../banco.php";
 
 if(isset($_GET['preferencias'])== false){
 
