@@ -11,25 +11,14 @@ include "../Cabecalho/Cabecalho.php";
  <body>
  <div id="cad">
  <fieldset>
- <legend>Login</legend>
- <table cellspacing="10">
-  <tr>
-   <td>
-    <label for="email">E-mail: </label>
-   </td>
-   <td align="left">
-    <input type="text" name="email">
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <label for="pass">Senha: </label>
-   </td>
-   <td align="left">
-    <input type="password" name="pass">
-   </td>
-  </tr>
- </table>
+ <legend>Login</legend>  
+ <form action='confirma.php' method='GET' align='center'>
+  Email: <br><input type='Text' name='email'><br><br>
+  Senha: <br><input type='Password' name='senha'><br><br>
+    <input type='submit' value='Pronto'>
+    </form>
+ 
+
 </fieldset>
 </div>
  </body>

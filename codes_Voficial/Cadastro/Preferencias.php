@@ -1,24 +1,23 @@
-<?php 
-include "../Cabecalho/Cabecalho.php";
-include "../banco.php";
+<?php
 
-if(isset($_GET['nome'])== false){
+include "../Cabecalho/Cabecalho.php";
+include "../Banco/banco.php";
+
+if(isset($_GET['preferencias'])== false){
 
  ?>
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" type="text/css" href="../CSS/cadastro.css">
 <head>
-	<title></title>
 </head>
 <body>
  <div id="cad">
  <fieldset>
- <legend>Dados para cadastro</legend>
- <form action='Cadastro.php' method='GET' align='center'>
-  Email: <br><input type='Text' name='email'><br>
-  Nome: <br><input type='Text' name='nome'><br>
-  Senha: <br><input type='Password' name='senha'><br><br>
+ <legend>Preferências</legend>
+ <form action='preferencias.php' method='GET' align='center'>
+  Descreva seu nível esportivo, preferências e estilo de alimentação: <br><textarea name="preferencias"> </textarea><br>
+  
     <input type='submit' value='Pronto'>
     </form>
  
@@ -31,24 +30,21 @@ if(isset($_GET['nome'])== false){
 <?php 
 }
 else{
-  $nome = $_GET['nome'];
-  $email = $_GET['email'];
-  $senha = $_GET['senha'];
-  $senhacrip = md5($senha);
+  $preferencias = $_GET['preferencias'];
   
-  if($nome != "" &&  $email != "" && $senha != ""){
+  if($preferencias != ""){
 
-  $sql = "INSERT INTO usuario(email, nome, senha) VALUES
-  ('".$email."','".$nome."','".$senhacrip."')";
+  $sql = "INSERT INTO usuario(preferencias) VALUES
+  ('".$preferencias."')";
 
   $result = mysqli_query($link, $sql);
 
   if($result){
     echo "<br>";
     echo "<h3 align='center'>Dados inseridos com sucesso!</h3>";
-    echo "<form action='home.php' method='GET' align='center'>";//pg do usuário
-    echo "<br>";
-    echo "<a href = 'Preferencias.php'><input type='submit' value='Ok'>";
+    echo "<h3 align='center'>Você será redimensionado para a página de login.</h3>";
+    sleep(10);
+    header("Location: ../Login/login.php");
     echo "</form>";
 
   }else{
