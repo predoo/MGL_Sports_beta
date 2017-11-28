@@ -48,7 +48,8 @@ else{
     echo "<h3 align='center'>Dados inseridos com sucesso!</h3>";
     echo "<form action='Preferencias.php' method='GET' align='center'>";//pg do usuário
     echo "<br>";
-    echo "<input type='submmit' value='Ok'>";
+    echo "<br><input type='Text' name='email' value = '".$email."'><br>";
+    echo "<input type='submit' value='Ok'>";
     echo "</form>";
 
   }else{

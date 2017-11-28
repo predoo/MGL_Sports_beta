@@ -17,7 +17,11 @@ if(isset($_GET['preferencias'])== false){
  <legend>Preferências</legend>
  <form action='preferencias.php' method='GET' align='center'>
   Descreva seu nível esportivo, preferências e estilo de alimentação: <br><textarea name="preferencias"> </textarea><br>
-  
+  <?php
+  echo "<input type='Text' name='email' value = '".$_GET['email']."'>";
+ ;    
+  ?>
+
     <input type='submit' value='Pronto'>
     </form>
  
@@ -31,24 +35,33 @@ if(isset($_GET['preferencias'])== false){
 }
 else{
   $preferencias = $_GET['preferencias'];
-  
   if($preferencias != ""){
+  $id= $_GET['email'];
 
-  $sql = "INSERT INTO usuario(preferencias) VALUES
-  ('".$preferencias."')";
-
+  echo $preferencias;    
+      
+  $sql = "UPDATE usuario
+SET preferencias = '".$preferencias."'
+WHERE email = '".$id."';";
+  
+  
+  
   $result = mysqli_query($link, $sql);
 
   if($result){
     echo "<br>";
     echo "<h3 align='center'>Dados inseridos com sucesso!</h3>";
     echo "<h3 align='center'>Você será redimensionado para a página de login.</h3>";
+    
+      echo "</form>";
+
+  }
+  else{
+    echo "<h3 align='center'>Erro de SQL.</h3>";
+      
     sleep(10);
     header("Location: ../Login/login.php");
-    echo "</form>";
 
-  }else{
-    echo "<h3 align='center'>Erro de SQL.</h3>";
   }
 
   }
