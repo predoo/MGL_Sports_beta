@@ -39,6 +39,10 @@ function carousel() {
 
 </script>
 <br>
+<br>
+<br>
+<br>
+<br>
 <div class="rodape">
 <a href="https://facebook.com" target="_blank"> <img src= "../IMAGENS/facebook.png"></a>
 <a href="https://instagram.com" target="_blank"><img src= "../IMAGENS/instagram.png"></a>

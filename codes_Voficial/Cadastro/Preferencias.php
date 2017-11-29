@@ -52,7 +52,7 @@ WHERE email = '".$id."';";
     echo "<br>";
     echo "<h3 align='center'>Dados inseridos com sucesso!</h3>";
     echo "<h3 align='center'>Você será redimensionado para a página de login.</h3>";
-    sleep(10);
+    sleep(3);
     header("Location: ../Login/login.php");
       echo "</form>";
 
@@ -80,3 +80,14 @@ WHERE email = '".$id."';";
   unset($id);
 
 ?>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="rodape">
+<a href="https://facebook.com" target="_blank"> <img src= "../IMAGENS/facebook.png"></a>
+<a href="https://instagram.com" target="_blank"><img src= "../IMAGENS/instagram.png"></a>
+<a href="https://plus.google.com" target="_blank"><img src= "../IMAGENS/google.png"></a>
+<a href="https://twitter.com" target="_blank"><img src= "../IMAGENS/twitter.png"></a>
+</div>

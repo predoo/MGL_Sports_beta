@@ -40,6 +40,16 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </h1>
 </div>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="rodape">
+<a href="https://facebook.com" target="_blank"> <img src= "../IMAGENS/facebook.png"></a>
+<a href="https://instagram.com" target="_blank"><img src= "../IMAGENS/instagram.png"></a>
+<a href="https://plus.google.com" target="_blank"><img src= "../IMAGENS/google.png"></a>
+<a href="https://twitter.com" target="_blank"><img src= "../IMAGENS/twitter.png"></a>
+</div>
 </body>
 </html>
